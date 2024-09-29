@@ -60,19 +60,19 @@ const show_results = (result, player) => {
 
 // sound functions
 function play_win_music(){
-  let audio=new Audio("victory.mp3");
+  let audio=new Audio("mp3-files/victory.mp3");
   audio.play();
 }
 function place_item_music(){
-  let audio=new Audio("place_on_board.mp3");
+  let audio=new Audio("mp3-files/place_on_board.mp3");
   audio.play();
 }
 function game_start_music(){
-  let audio=new Audio("game_start.mp3");
+  let audio=new Audio("mp3-files/game_start.mp3");
   audio.play();
 }
 function game_over_music(){
-  let audio = new Audio("game_over.mp3");
+  let audio = new Audio("mp3-files/game_over.mp3");
   audio.play();
 }
 
